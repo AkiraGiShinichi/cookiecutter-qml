@@ -17,8 +17,11 @@ Features
 
 Conventions
 --------
+
 Python: https://realpython.com/python-pep8/
+
 Qt: https://wiki.qt.io/Qt_for_Python_Signals_and_Slots
+
 Qt MVP: https://developer.mantidproject.org/MVPTutorial/CompleteGUI.html#completegui
 
 Credits
