@@ -5,11 +5,11 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("{{ cookiecutter.application_title }}")
 
     Text {
         id: text
-        text: qsTr("Hello, World!")
+        text: qsTr("{{ cookiecutter.application_name }}")
         anchors.centerIn: parent
     }
 }
