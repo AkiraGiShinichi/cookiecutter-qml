@@ -1,0 +1,6 @@
+{
+    "files": [
+        "{{ cookiecutter.package_name }}/main.py", 
+        "{{ cookiecutter.package_name }}/qml/main.qml"
+    ]
+}

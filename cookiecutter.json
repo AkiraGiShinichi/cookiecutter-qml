@@ -1,0 +1,11 @@
+{
+    "full_name": "Akira Gi Shinichi",
+    "email": "akiragishinichi@gmail.com",
+    "github_username": "akiragishinichi",
+    "repo_name": "cookiecutter_qml",
+    "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "application_name": "Application",
+    "application_title": "Template",
+    "project_short_description": "A PySide2 GUI application",
+    "version": "0.0.1"
+}
