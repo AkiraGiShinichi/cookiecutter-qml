@@ -3,7 +3,7 @@
 .. image:: https://travis-ci.org/mandeep/cookiecutter-pyqt5.svg?branch=master
     :target: https://travis-ci.org/mandeep/cookiecutter-pyqt5
 
-Cookiecutter-PyQt5 is a Cookiecutter_ template that assists users in their creation of PyQt5 GUI applications. All projects created from this cookiecutter will default to the GPLv3 license. For more details regarding Riverbank's license please visit: https://www.riverbankcomputing.com/commercial/license-faq
+Cookiecutter-QML is a Cookiecutter_ template that assists users in their creation of PySide2 QML GUI applications. All projects created from this cookiecutter will default to the GPLv3 license. For more details regarding Riverbank's license please visit: https://www.riverbankcomputing.com/commercial/license-faq
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 
@@ -18,11 +18,11 @@ Features
 Quick Start
 ------------
 
-Prior to installing the PyQt5 cookiecutter, the cookiecutter package must be installed in the user's virtual environment. This is achieved via the following command::
+Prior to installing the cookiecutter-qml, the cookiecutter package must be installed in the user's virtual environment. This is achieved via the following command::
 
     $ pip install cookiecutter
 
-With cookiecutter installed, the PyQt5 cookiecutter template can be installed with::
+With cookiecutter installed, the cookiecutter-qml template can be installed with::
 
     $ cookiecutter https://github.com/AkiraGiShinichi/cookiecutter-qml.git
 
@@ -44,7 +44,9 @@ project::
     $ application_title [Template]: Enter the title of your application. This name is also used
       as an entry point into the application.
 
-    $ project_short_description [A PyQt5 GUI application]: Enter a short description about your project.
+    $ application_title [PySide2]: Enter the target PySide version
+
+    $ project_short_description [A PySide2 GUI application]: Enter a short description about your project.
 
     $ version [0.0.1]: Enter the version number for your application.
 

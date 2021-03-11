@@ -2,8 +2,8 @@
 import sys
 import os
 
-from PySide2.QtGui import QGuiApplication
-from PySide2.QtQml import QQmlApplicationEngine
+from {{ cookiecutter.pyside_version }}.QtGui import QGuiApplication
+from {{ cookiecutter.pyside_version }}.QtQml import QQmlApplicationEngine
 
 from {{ cookiecutter.package_name }} import backend
 
